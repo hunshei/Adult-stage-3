@@ -25,10 +25,6 @@ public class Adult3Popup implements Initializable {
     @FXML
     private Label completeLabel;
 
-    @FXML
-    void handleDragDone(DragEvent event) {
-    }
-
     private double mouseAnchorX, mouseAnchorY;
 
     Drag drag1 = new Drag();
